@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imagens/Steam_icon_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <title>Bem-vindo(a) ao Steam</title>
+</head>
+<body>
+    <header>
+        <img class="logo__header" src="assets/imagens/logo_steam.svg" alt="#">
+            <nav class="menu1">
+                <ul class="menu1">
+                    <a href="#" class="itens__lista">
+                        <li class="itens__lista">Loja</li>
+                    </a>
+
+                    <a href="https://steamcommunity.com/" class="itens__lista">
+                        <li class="itens__lista">Comunidade</li>
+                    </a>
+
+                    <a href="#" class="itens__lista">
+                        <li class="itens__lista">Sobre</li>
+                    </a>
+
+                    <a href="https://help.steampowered.com/pt/" class="itens__lista">
+                        <li class="itens__lista">Suporte</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <nav>
+                <ul class="menu2">
+                    <a href="https://store.steampowered.com/about/" class="itens__lista2 button__install">
+                        <li class="itens__lista2"><img class="img1__lista2" src="assets/imagens/btn_header_installsteam_download.png" alt="#">Instale o Steam</li>
+                    </a>
+
+                    <a href="#" class="itens__lista2 font-color__lista2">
+                        <li class="itens__lista2 font-color__lista2">Iniciar sessão</li>
+                    </a>
+
+                    <span class="barra">|</span>
+
+                    <a href="#" class="itens__lista2 font-color__lista2">
+                        <li class="itens__lista2 font-color__lista2">Idioma<img class="img2__lista2" src="assets/imagens/btn_arrow_down_padded.png" alt="#"></li>
+                    </a>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section class="primeira__section">
+            <video src="./assets/videos/webm_page_bg_portuguese.webm" autoplay loop class="bg__video"></video>
+                <div class="menu">
+                    <div class="menu__list__container">
+                        <div class="menu__items">
+                            <a href="#" class="menu__lista__items">Sua loja</a>
+                        </div>
+
+                        <div class="menu__items">
+                            <a href="#" class="menu__lista__items">Novidades e tendências</a>
+                        </div>
+
+                        <div class="menu__items">
+                            <a href="#" class="menu__lista__items">Categorias</a>
+                        </div>
+
+                        <div class="menu__items">
+                            <a href="#" class="menu__lista__items">Loja de pontos</a>
+                        </div>
+                        
+                        <div class="menu__items">
+                            <a href="#" class="menu__lista__items">Notícias</a>
+                        </div>
+
+                        <div class="menu__items">
+                            <a href="#" class="menu__lista__items">Laboratório</a>
+                        </div>
+                        
+                        <div class="form__div">
+                            <input type="text" name="search" id="istore_nav" placeholder="Buscar" size="22" class="form">
+                            <a href="#"><img class="img__form" src="assets/imagens/search_icon_btn.png" alt="#"></a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="sidenav">
+                    <img class="cluster__bg" src="assets/imagens/cluster_bg.png" alt="#">
+
+                    <nav class="sidenav">
+                        <a href="https://store.steampowered.com/digitalgiftcards/"><img class="img__sidenav" src="assets/imagens/steam-cards.png" alt="#"></a>
+                        <div class="items">
+                            <p class="title1__items">Vales-Presente</p>
+                            <ul>
+                                <a href="https://store.steampowered.com/digitalgiftcards/" class="item" target="_blank">
+                                    <li class="item">Já disponíveis no Steam</li>
+                                </a>
+                            </ul>
+                        </div>
+                        
+                        <div class="items">
+                            <p class="title__items">Recomendado</p>
+                            <ul>
+                                <a href="https://store.steampowered.com/login/?redir=recommended%2Ffriendactivity%2F&snr=1_4_4__125" class="item" target="_blank">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/1.png" alt="#">Por amigos</li>
+                                </a>
+                                <a href="https://store.steampowered.com/curators/" class="item" target="_blank">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/2.png" alt="#">Por curadores</li>
+                                </a>
+                                <a href="https://store.steampowered.com/tag/browse/#yours" class="item" target="_blank">
+                                    <li class="item last__item"><img class="img__icons" src="assets/imagens/3.png" alt="#">Marcadores</li>
+                                </a>
+                            </ul>
+                        </div>
+                        
+                        <div class="items">
+                            <p class="title__items">Listas de Descobrimento</p>
+                            <ul>
+                                <a href="#" class="item">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/4.png" alt="#">Recomendações</li>
+                                </a>
+                                <a href="#" class="item">
+                                    <li class="item last__item"><img class="img__icons" src="assets/imagens/5.png" alt="#">Lançamentos</li>
+                                </a>
+                            </ul>
+                        </div>
+                        
+                        <div class="items">
+                            <p class="title__items">Ver Categorias</p>
+                            <ul>
+                                <a href="https://store.steampowered.com/search/?filter=topsellers" class="item" target="_blank">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/6.png" alt="#">Mais vendidos</li>
+                                </a>
+                                <a href="https://store.steampowered.com/explore/new/" class="item" target="_blank">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/7.png" alt="#">Lançamentos</li>
+                                </a>
+                                <a href="https://store.steampowered.com/explore/upcoming/" class="item" target="_blank">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/8.png" alt="#">Em breve</li>
+                                </a>
+                                <a href="https://store.steampowered.com/specials#tab=TopSellers" class="item" target="_blank">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/9.png" alt="#">Ofertas</li>
+                                </a>
+                                <a href="https://store.steampowered.com/vr/" class="item" target="_blank">
+                                    <li class="item"><img class="img__icons" src="assets/imagens/10.png" alt="#">Títulos de RV</li>
+                                </a>
+                                <a href="https://store.steampowered.com/controller/" class="item" target="_blank">
+                                    <li class="item last__item"><img class="img__icons" src="assets/imagens/11.png" alt="#">Compatíveis com Controle</li>
+                                </a>
+                            </ul>
+                            <div class="banner-1">
+                                <h1 class="title__destaques__primeira__section">Destaques e Recomendados</h1>
+                                <img class="arrow__left" src="assets/imagens/arrows__1.png" alt="#">
+                                <img class="arrow__right" src="assets/imagens/arrows__2.png" alt="#">
+                                <div class="primeiro__banner">
+                                    <div class="banner1">
+                                        <div class="primeiro__banner__img1">
+                                            <img class="img__banner__img1" src="assets/imagens/tlou-banner.jpg" alt="#">
+                                        </div>
+                                        
+                                        <div class="primeiro__banner__img2">
+                                            <h1 class="title1__primeiro__banner">The Last of Us™ Parte I</h1>
+                                            <img class="img__banner__img2" src="assets/imagens/tlou-minibanner5.jpg" alt="#">
+                                            <img class="img__banner__img2" src="assets/imagens/tlou-minibanner3.jpg" alt="#">
+                                            <img class="img__banner__img2" src="assets/imagens/tlou-minibanner2.jpg" alt="#">
+                                            <img class="img__banner__img2" src="assets/imagens/tlou-minibanner4.jpg" alt="#">
+                                            <h2 class="title2__primeiro__banner">Faça sua pré-reserva</h2>
+                                            <button class="button__primeiro__banner">Popular</button>
+                                            <div class="especificacoes__primeiro__banner">
+                                                <p class="preco__primeiro__banner">R$249,90</p>
+                                                <img class="icon__windows" src="assets/imagens/icon_platform_win.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container__carrossel">
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                                <div class="carrossel__items"></div>
+                            </div>
+                        </div>         
+                    </nav>
+                </div>
+        </section>
+
+        <section class="segunda__section">
+            <div id="sidenav">
+                <nav class="sidenav segundo__sidenav">
+                    <div class="items">
+                        <p class="title__items">Navegar por Gênero</p>
+                        <ul>
+                            <a href="https://store.steampowered.com/genre/Free%20to%20Play/" class="item" target="_blank">
+                                <li class="item">Gratuito p/ Jogar</li>
+                            </a>
+                            <a href="https://store.steampowered.com/genre/Early%20Access/" class="item" target="_blank">
+                                <li class="item">Acesso Antecipado</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Aventura/" class="item" target="_blank">
+                                <li class="item">Aventura</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/A%C3%A7%C3%A3o/" class="item" target="_blank">
+                                <li class="item">Ação</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Casual/" class="item" target="_blank">
+                                <li class="item">Casual</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Corridas/" class="item" target="_blank">
+                                <li class="item">Corrida</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Desporto/" class="item" target="_blank">
+                                <li class="item">Esportes</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Estrat%C3%A9gia/" class="item" target="_blank">
+                                <li class="item">Estratégia</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Indie/" class="item" target="_blank">
+                                <li class="item">Indie</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Multijogador%20em%20Massa/" class="item" target="_blank">
+                                <li class="item">Multijogador Massivo</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/RPG/" class="item" target="_blank">
+                                <li class="item">RPG</li>
+                            </a>
+                            <a href="https://store.steampowered.com/tags/pt/Simula%C3%A7%C3%A3o/" class="item" target="_blank">
+                                <li class="item last__item">Simulação</li>
+                            </a>
+                        </ul>
+                    <div class="items">
+                        <p class="title__items">Vistos Recentemente</p>
+                         <ul>
+                            <a href="https://store.steampowered.com/app/990080/Hogwarts_Legacy/" class="item" target="_blank">
+                                <li class="item">Hogwarts Legacy</li>
+                            </a>
+                            <a href="https://store.steampowered.com/app/1449850/YuGiOh_Master_Duel/" class="item" target="_blank">
+                                <li class="item">Yi-Gi-Oh! Master Duel</li>
+                            </a>
+                    
+                            <a href="https://store.steampowered.com/app/2254000/Rescue_Dash__Time_Management_Simulator/" class="item" target="_blank">
+                                <li class="item">Rescue Dash - Time <br> Management Simulator</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <div>
+                    <div class="anuncio2">
+                        <a href="https://store.steampowered.com/sale/BVIG23" target="_blank"><img class="link__anuncio2" src="assets/imagens/takeunder_mobile_brazilian.jpg" alt="#"></a>
+                    </div>
+
+                    <div class="titulos__sec2">
+                        <h1 class="title__destaques__primeira__section title__sec2">Ofertas Especiais</h1>
+                        <button class="botao__sec2 botao-sec2"><a class="botao__link__sec2" href="https://store.steampowered.com/specials#tab=TopSellers">Descubra Mais</a></button>
+                    </div>
+
+                    <div class="promocao__especial">
+                        <div class="promo__especial">
+                            <div class="box__text">
+                                <div class="texto__box">
+                                    <h3 class="promo__especial__titulo">Fim de semana da distribuidora</h3>
+                                    <p class="promo__especial__p">Oferta do fim de semana</p>
+                                    <p class="promo__especial__botao">Até -75%</p>
+                                </div>
+                                <img class="box" src="assets/imagens/background_spotlight.jpg" alt="#">
+                            </div>
+                        </div>
+                        
+                        <div class="promo__especial">
+                            <div class="box__text">
+                                <div class="texto__box">
+                                    <h3 class="promo__especial__titulo">Loucura do meio da semana</h3>
+                                    <p class="promo__especial__p promo__especial__p1">Oferta válida até 27 de fev. às 15:00.</p>
+                                    <div class="precos precos2 precos3">
+                                        <button class="promo__especial__botao__pequena preco3">-30%</button>
+                                        <button class="promo__especial__botao2__pequena2">
+                                            <p class="promo__especial__p__botao__pequena promo__especial__p__botao__pequena2 promo2">R$ 119,00</p>
+                                            <p class="promo__especial__p2__botao__pequena promo__especial__p2__botao__pequena2 promo2">R$ 83,30</p>
+                                        </button>
+                                    </div>
+                                </div>
+                                <img class="box" src="assets/imagens/background_spotlight.jpg" alt="#">
+                            </div>
+                        </div>
+                        
+                        <div class="promo__especial">
+                            <a href="#" class="botao__em__direto">Ao Vivo</a>
+                            <div class="box__text__pequena box__text__pequena2">
+                                <p class="promo__especial__p__pequena">Oferta do dia!</p>
+                                <div class="precos precos2">
+                                    <button class="promo__especial__botao__pequena">-66%</button>
+                                    <button class="promo__especial__botao2__pequena">
+                                        <p class="promo__especial__p__botao__pequena">R$ 149,95</p>
+                                        <p class="promo__especial__p2__botao__pequena">R$ 98,96</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="promo__especial">
+                            <div class="box__text__pequena">
+                                <p class="promo__especial__p__pequena">Oferta do dia!</p>
+                                <div class="precos">
+                                    <button class="promo__especial__botao__pequena">-50%</button>
+                                    <button class="promo__especial__botao2__pequena">
+                                        <p class="promo__especial__p__botao__pequena">R$ 57,99</p>
+                                        <p class="promo__especial__p2__botao__pequena">R$ 28,99</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <img class="arrow__left arrow1__sec2" src="assets/imagens/arrows__1.png" alt="#">
+                        <img class="arrow__right arrow2__sec2" src="assets/imagens/arrows__2.png" alt="#">
+                    </div>
+
+                    <div class="container__carrossel2">
+                        <div class="carrossel__items2"></div>
+                        <div class="carrossel__items2"></div>
+                        <div class="carrossel__items2"></div>
+                        <div class="carrossel__items2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="terceira__section"> 
+            <div class="anuncios">
+                <a class="link__anuncios" href="https://store.steampowered.com/steamdeck" target="_blank"><img src="assets/imagens/deck_banner_desktop_portuguese.gif" alt="#"></a>
+                <a class="link__anuncios" href="https://store.steampowered.com/valveindex" target="_blank"><img src="assets/imagens/store_index_promo.jpg" alt="#"></a>
+            </div>
+
+            <div class="categorias">
+                <h1 class="title__destaques__primeira__section titulo__sec3">Explore por Categoria</h1>
+                <div class="banner__terceira__sec">
+                    <a class="link__categorias" href="https://store.steampowered.com/category/strategy" target="_blank">
+                        <div class="terceira-sec__grid-item1">
+                            <h2 class="titulo__grid-item titulo__grid-item1">Estratégia</h2>
+                        </div>
+                    </a>
+
+                    <a class="link__categorias" href="https://store.steampowered.com/category/exploration_open_world" target="_blank">
+                        <div class="terceira-sec__grid-item1 terceira-sec__grid-item2">
+                            <h2 class="titulo__grid-item titulo__grid-item2">Mundo Aberto</h2>
+                        </div>
+                    </a>
+
+                    <a class="link__categorias" href="https://store.steampowered.com/category/racing" target="_blank">
+                        <div class="terceira-sec__grid-item1 terceira-sec__grid-item3">
+                            <h2 class="titulo__grid-item titulo__grid-item3">Corrida</h2>
+                        </div>
+                    </a>
+
+                    <a class="link__categorias" href="https://store.steampowered.com/category/horror" target="_blank">
+                        <div class="terceira-sec__grid-item1 terceira-sec__grid-item4">
+                            <h2 class="titulo__grid-item titulo__grid-item4">Terror</h2>
+                        </div>
+                    </a>
+                </div>
+                <img class="arrow__left arrow1__sec2 arrow1__sec3" src="assets/imagens/arrows__1.png" alt="#">
+                <img class="arrow__right arrow2__sec2 arrow2__sec3" src="assets/imagens/arrows__2.png" alt="#">
+            </div>
+
+
+                <div class="container__carrossel__items3">
+                    <div class="carrossel__items2 carrossel__items3"></div>
+                    <div class="carrossel__items2 carrossel__items3"></div>
+                    <div class="carrossel__items2 carrossel__items3"></div>
+                    <div class="carrossel__items2 carrossel__items3"></div>
+                    <div class="carrossel__items2 carrossel__items3"></div>
+                </div>
+            </div>
+
+            <aside>
+                <div class="aside__login">
+                    <h1 class="title__aside1">Inicie a sessão para ver mais recomendações personalizadas</h1>
+                    <button><a class="botao__aside" href="https://store.steampowered.com/login/?snr=1_4_4__more-content-login">Iniciar sessão</a></button>
+                    <h2 class="title__aside2">Ou <a class="link2__aside" href="https://store.steampowered.com/join/?snr=1_4_4__more-content-login" target="_blank">cadastre-se</a> no Steam gratuitamente</h2>
+                </div>
+            </aside>
+                
+            <div class="container__categorias2">
+                <h1 class="title__destaques__primeira__section titulo__categorias2">Navegar pelo Steam</h1>
+                <div class="categorias2">
+                    <a href="https://store.steampowered.com/explore/new/" target="_blank">
+                        <h2 class="items__categorias2">Lançamentos</h2>
+                    </a>
+
+                    <a href="https://store.steampowered.com/search/?specials=1" target="_blank">
+                        <h2 class="items__categorias2">Ofertas</h2>
+                    </a>
+
+                    <a href="https://store.steampowered.com/genre/Free%20to%20Play/" target="_blank">
+                        <h2 class="items__categorias2">Jogos Gratuitos</h2>
+                    </a>
+
+                    <a href="https://store.steampowered.com/tag/browse/#global_492" target="_blank">
+                        <h2 class="items__categorias2">Marcadores</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container__jogos__populares-rv">
+                <div class="titulo-botao__jogos-rv">
+                    <h1 class="title__destaques__primeira__section titulo__jogos__populares-rv">Jogos Populares de RV</h1>
+                    <button class="botao__sec2 botao__jogos__rv"><a class="botao__link__sec2" href="https://store.steampowered.com/vr">Ver Todos</a></button>
+                </div>
+
+                <div class="jogos__populares-rv">
+                    <a class="items__jogos__populares-rv" href="https://store.steampowered.com/app/620980/Beat_Saber/" target="_blank"><img src="assets/imagens/beat.jpg" alt="#" width="230px">
+                        <div class="container__title__jogos-rv">
+                            <h2 class="title__jogos-rv">R$ 57,99</h2>
+                        </div>
+                    </a>
+
+                    <a class="items__jogos__populares-rv" href="https://store.steampowered.com/app/1086850/Garden_of_the_Sea/" target="_blank"><img src="assets/imagens/header_292x136 (9).jpg" alt="#" width="230px">
+                        <div class="container__title__jogos-rv">
+                            <h2 class="title__jogos-rv">R$ 47,49</h2>
+                        </div>
+                    </a>
+
+                    <a class="items__jogos__populares-rv" href="https://store.steampowered.com/app/1643100/Noun_Town_VR_Language_Learning/" target="_blank"><img src="assets/imagens/header_292x136 (10).jpg" alt="#" width="230px">
+                        <div class="container__title__jogos-rv">
+                            <h2 class="title__jogos-rv">R$ 46,99</h2>
+                        </div>
+                    </a>
+
+                    <a class="items__jogos__populares-rv" href="https://store.steampowered.com/app/546560/HalfLife_Alyx/" target="_blank"><img src="assets/imagens/header_292x1363.jpg" alt="#" width="230px">
+                        <div class="container__title__jogos-rv">
+                            <h2 class="title__jogos-rv">R$ 162,00</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <ul class="menu__quarta__sec">
+                <li class="item__menu__quarta__sec">Mais vendidos</li>
+                <li class="item__menu__quarta__sec">Novidades populares</li>
+                <li class="item__menu__quarta__sec">Mais aguardados</li>
+                <li class="item__menu__quarta__sec">Ofertas</li>
+            </ul>
+        </section>
+
+        <section class="quarta__section">
+            <div class="body__quarta__section">
+                <div class="lista__jogos">
+                    <div class="veja__mais1">
+                        <p class="p__veja-mais">Veja mais:</p>
+                        <button class="botao__sec2 botao__veja-mais1"><a class="botao__link__sec2" href="https://store.steampowered.com/explore/new/">Lançamentos</a></button>
+                    </div>
+                    
+                    <div class="jogo1">
+                        <a href="https://store.steampowered.com/app/990080/Hogwarts_Legacy/" target="_blank">
+                            <div class="conteudo__jogo1">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (8).jpg" alt="#">
+                                <div class="texto__jogo1">
+                                    <p class="nome__jogo nome__jogo1">Hogwarts Legacy</p>
+                                    <img class="icon__platform1" src="assets/imagens/icon_platform_win_dark (1).png" alt="#">
+                                    <div class="jogo__details-box">
+                                        <span class="jogo__details">Estratégia, </span>
+                                        <span class="jogo__details">Jogo de Guerra, </span>
+                                        <span class="jogo__details">Estratégia em Tempo Real com Ação, </span>
+                                        <span class="jogo__details">Estratégia em Tempo Real (RTS)</span>
+                                    </div>
+                                    <p class="jogo__preco-hogwarts">R$ 249,99</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="jogo__hover">
+                            <p class="titulo__principal__hover">Hogwarts Legacy</p>
+                            <div class="analise__hover">
+                                <p class="titulo__analise__hover">Análises de usuários:</p>
+                                <p class="p__analise__hover">Muito positivas <span class="span__hover">(107.982)</span></p>
+                            </div>
+                            
+                            <div class="detalhes__hover">
+                                <a href="https://store.steampowered.com/tags/pt-br/M%C3%A1gica/">
+                                    <p class="p__detalhes__hover p__detalhes__hover1">Mágica</p>
+                                </a>
+                                <a href="https://store.steampowered.com/tags/pt-br/Fantasia/">
+                                    <p class="p__detalhes__hover">Fantasia</p>
+                                </a>
+                                <a href="https://store.steampowered.com/tags/pt-br/Mundo%20Aberto/">
+                                    <p class="p__detalhes__hover">Mundo Aberto</p>
+                                </a>
+                                <a href="https://store.steampowered.com/tags/pt-br/Um%20Jogador/">
+                                    <p class="p__detalhes__hover">Um Jogador</p>
+                                </a>
+                            </div>
+    
+                            <div>
+                                <img class="imagem__hover" src="assets/imagens/ss_8e08976236d29b1897769257ac3c64e9264792a5.600x338.jpg" alt="#">
+                                <img class="imagem__hover" src="assets/imagens/ss_94058497bf0f8fabdde17ee8d59bece609a60663.600x338.jpg" alt="#">
+                                <img class="imagem__hover" src="assets/imagens/ss_df93b5e8a183f7232d68be94ae78920a90de1443.600x338.jpg" alt="#">
+                                <img class="imagem__hover" src="assets/imagens/ss_725bf58485beb4aa37a3a69c1e2baa69bf3e4653.600x338.jpg" alt="#">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="jogo2">
+                        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">
+                            <div class="conteudo__jogo2">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (9).jpg" alt="#">
+                                <div class="texto__jogo2">
+                                    <p class="nome__jogo">Counter-Strike: Global Offensive</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <img class="icon__platform  icon-mac" src="assets/imagens/icon_platform_mac.png" alt="#">
+                                    <img class="icon__platform  icon-linux" src="assets/imagens/icon_platform_linux.png" alt="#">
+                                    <div class="jogo__details-box">
+                                        <span class="jogo__details">Tiro em Primeira Pessoa (FPS), </span>
+                                        <span class="jogo__details">Tiro, </span>
+                                        <span class="jogo__details">Multijogador,</span>
+                                        <span class="jogo__details">Competitivo</span>
+                                    </div>
+                                    <p class="jogo__preco preco__gratuito">Gratuito p/ Jogar</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="lista__jogos">
+                        <a href="https://store.steampowered.com/app/1938090/Call_of_Duty_Modern_Warfare_II/" target="_blank">
+                            <div class="jogo3">
+                                <div class="conteudo__jogo3">
+                                    <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (10).jpg" alt="#">
+                                    <div class="texto__jogo3">
+                                        <p class="nome__jogo">Call of Duty®: Modern Warfare® II</p>
+                                        <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                        <p class="jogo__details">Tiro em Primeira Pessoa (FPS), Ação, Multijogador, Tiro</p>
+                                        <button class="botao__jogo">-35%</button>
+                                        <p class="jogo__preco1-jogo3">R$ 299,90</p>
+                                        <p class="jogo__preco2-jogo3">R$ 194,93</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="jogo4">
+                        <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/" target="_blank">
+                            <div class="conteudo__jogo4">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (11).jpg" alt="#">
+                                <div class="texto__jogo4">
+                                    <p class="nome__jogo">PUBG: BATTLEGROUNDS</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <p class="jogo__details">Sobrevivência, Tiro, Multijogador, Battle Royale</p>
+                                    <p class="jogo__preco preco__gratuito">Gratuito p/ Jogar</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="jogo5">
+                        <a href="https://store.steampowered.com/app/668580/Atomic_Heart/" target="_blank">
+                            <div class="conteudo__jogo5">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (12).jpg" alt="#">
+                                <div class="texto__jogo5">
+                                    <p class="nome__jogo">Atomic Heart</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <p class="jogo__details">Terror, Mistério, Quebra-Cabeça, Tiro em Primeira Pessoa (FPS)</p>
+                                    <p class="jogo__preco">R$ 199,90</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="jogo6">
+                        <a href="https://store.steampowered.com/app/1677280/Company_of_Heroes_3/" target="_blank">
+                            <div class="conteudo__jogo6">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (13).jpg" alt="#">
+                                <div class="texto__jogo6">
+                                    <p class="nome__jogo">Company of Heroes 3</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <div class="jogo__details-box">
+                                        <span class="jogo__details">Estratégia, Jogo de Guerra, </span>
+                                        <span class="jogo__details">Estratégia em Tempo Real com Ação, </span>
+                                        <span class="jogo__details">Estratégia em Tempo Real (RTS)</span>
+                                    </div>
+                                    <p class="jogo__preco">R$ 299,99</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="jogo7">
+                        <a href="https://store.steampowered.com/app/1811260/EA_SPORTS_FIFA_23/" target="_blank">
+                            <div class="conteudo__jogo7">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (14).jpg" alt="#">
+                                <div class="texto__jogo7">
+                                    <p class="nome__jogo">EA SPORTS™ FIFA 23</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <p class="jogo__details">Futebol, Esportes, eSports, Controle</p>
+                                    <p class="jogo__preco">R$ 299,00</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="jogo8">
+                        <a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank">
+                            <div class="conteudo__jogo8">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (15).jpg" alt="#">
+                                <div class="texto__jogo8">
+                                    <p class="nome__jogo">Euro Truck Simulator 2</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <img class="icon__platform  icon-mac" src="assets/imagens/icon_platform_mac.png" alt="#">
+                                    <img class="icon__platform  icon-linux" src="assets/imagens/icon_platform_linux.png" alt="#">
+                                    <div class="box__details">
+                                        <p class="jogo__details">Direção, Transportes, Simulação, Mundo Aberto</p>
+                                        <button class="botao__jogo botao__jogo8">-75%</button>
+                                        <p class="jogo__preco1">R$ 49,99</p>
+                                        <p class="jogo__preco2">R$ 12,49</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="jogo9">
+                        <a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank">
+                            <div class="conteudo__jogo9">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69_brazilian.jpg" alt="#">
+                                <div class="texto__jogo9">
+                                    <p class="nome__jogo">Destiny 2</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <div class="jogo__details-box">
+                                        <span class="jogo__details">Gratuito para Jogar, </span>
+                                        <span class="jogo__details">Mundo Aberto, </span>
+                                        <span class="jogo__details">Tiro com Saques, </span>
+                                        <span class="jogo__details">Tiro em Primeira Pessoa(FPS)</span>
+                                    </div>
+                                    <p class="jogo__preco preco__gratuito">Gratuito p/ Jogar</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="jogo10">
+                        <a href="https://store.steampowered.com/app/1466860/Age_of_Empires_IV_Anniversary_Edition/" target="_blank">
+                            <div class="conteudo__jogo10">
+                                <img class="imagem__jogo" src="assets/imagens/capsule_184x69 (16).jpg" alt="#">
+                                <div class="texto__jogo10">
+                                    <p class="nome__jogo">Age of Empires IV: Anniversary Edition</p>
+                                    <img class="icon__platform" src="assets/imagens/icon_platform_win.png" alt="#">
+                                    <div class="jogo__details-box">
+                                        <span class="jogo__details">Estratégia em Tempo Real (RTS), </span>
+                                        <span class="jogo__details">Multijogador, </span>
+                                        <span class="jogo__details">Estratégia, </span>
+                                        <span class="jogo__details">Guerra</span>
+                                    </div>
+                                    <div class="preco__jogo10">
+                                        <button class="botao__jogo botao__jogo10">-40%</button>
+                                        <p class="jogo__preco1">R$ 99,99</p>
+                                        <p class="jogo__preco2">R$ 59,99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="veja__mais1">
+                        <div class="veja__mais2">
+                            <p class="p__veja-mais">Veja mais:</p>
+                            <button class="botao__sec2 botao__veja-mais1"><a class="botao__link__sec2" href="https://store.steampowered.com/explore/new/" target="_blank">Mais vendidos</a></button>
+                            <p class="p__veja-mais ">ou</p>
+                            <button class="botao__sec2 botao__veja-mais1"><a class="botao__link__sec2" href="https://store.steampowered.com/explore/new/" target="_blank">Mais vendidos mundialmente</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="veja__mais2">
+                        <h1 class="title__destaques__primeira__section titulo__jogos__populares-ao-vivo">Jogos Sendo Transmitidos Agora</h1>
+                        <button class="botao__sec2 botao__ao-vivo"><a class="botao__link__sec2" href="https://steamcommunity.com/?subsection=broadcasts&browsefilter=partner_streams" target="_blank">Ver todas</a></button>
+                    </div>
+
+                    <div class="jogos__ao__vivo">
+                        <div class="container__jogo">
+                            <a href="https://store.steampowered.com/app/954850/Kerbal_Space_Program_2/" target="_blank">
+                                <img class="play" src="assets/imagens/play_icon80.png" alt="#"></a>
+                            <a href="https://store.steampowered.com/app/954850/Kerbal_Space_Program_2/" class="botao__em__direto botao__ao-vivo2" target="_blank">Ao Vivo</a>
+
+                            <a class="items__jogos__ao__vivo" href="https://store.steampowered.com/app/954850/Kerbal_Space_Program_2/" target="_blank">
+                                <img class="img__jogos-ao-vivo" src="assets/imagens/download (7).jpg" alt="#">
+                                <div class="container__title__jogos-ao-vivo">
+                                    <p class="title__jogos-ao-vivo">Kerbal Space Program 2</p>
+                                    <p class="viewers"><img class="img__viewers" src="assets/imagens/icon_viewers.png" alt="#"> 11.104</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="container__jogo">
+                            <a href="https://store.steampowered.com/app/668580/Atomic_Heart/" target="_blank"><img class="play2" src="assets/imagens/play_icon80.png" alt="#"></a>
+                            <a href="https://store.steampowered.com/app/668580/Atomic_Heart/" class="botao__em__direto botao__ao-vivo3" target="_blank">Ao Vivo</a>
+
+                            <a class="items__jogos__ao__vivo" href="https://store.steampowered.com/app/668580/Atomic_Heart/" target="_blank">
+                                <img class="img__jogos-ao-vivo" src="assets/imagens/download (8).jpg" alt="#">
+                                <div class="container__title__jogos-ao-vivo">
+                                    <p class="title__jogos-ao-vivo">Atomic Heart</p>
+                                    <p class="viewers"><img class="img__viewers" src="assets/imagens/icon_viewers.png" alt="#"> 9.845</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="container__jogo">
+                            <a href="https://store.steampowered.com/app/1677280/Company_of_Heroes_3/" target="_blank"><img class="play3" src="assets/imagens/play_icon80.png" alt="#"></a>
+                            <a href="https://store.steampowered.com/app/1677280/Company_of_Heroes_3/" class="botao__em__direto botao__ao-vivo3 botao__ao-vivo4" target="_blank">Ao Vivo</a>
+
+                            <a class="items__jogos__ao__vivo" href="https://store.steampowered.com/app/1677280/Company_of_Heroes_3/" target="_blank">
+                                <img class="img__jogos-ao-vivo" src="assets/imagens/download (9).jpg" alt="#">
+                                <div class="container__title__jogos-ao-vivo">
+                                    <p class="title__jogos-ao-vivo">Company of Heroes 3</p>
+                                    <p class="viewers"><img class="img__viewers" src="assets/imagens/icon_viewers.png" alt="#"> 10.046</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="container__jogo">
+                            <a href="https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/" target="_blank"><img class="play4" src="assets/imagens/play_icon80.png" alt="#"></a>
+                            <a href="https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/" class="botao__em__direto botao__ao-vivo2 botao__ao-vivo5" target="_blank">Ao Vivo</a>
+
+                            <a class="items__jogos__ao__vivo" href="https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/" target="_blank">
+                                <img class="img__jogos-ao-vivo" src="assets/imagens/download (10).jpg" alt="#">
+                                <div class="container__title__jogos-ao-vivo">
+                                    <p class="title__jogos-ao-vivo">Cult of the Lamb</p>
+                                    <p class="viewers"><img class="img__viewers" src="assets/imagens/icon_viewers.png" alt="#"> 7.349</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="container__jogo">
+                            <a href="https://store.steampowered.com/app/1016950/Blood_Bowl_3/" target="_blank"><img class="play5" src="assets/imagens/play_icon80.png" alt="#"></a>
+                            <a href="https://store.steampowered.com/app/1016950/Blood_Bowl_3/" class="botao__em__direto botao__ao-vivo2 botao__ao-vivo6" target="_blank">Ao Vivo</a>
+
+                            <a class="items__jogos__ao__vivo" href="https://store.steampowered.com/app/1016950/Blood_Bowl_3/" target="_blank">
+                                <img class="img__jogos-ao-vivo" src="assets/imagens/download (11).jpg" alt="#">
+                                <div class="container__title__jogos-ao-vivo">
+                                    <p class="title__jogos-ao-vivo">Blood Bowl 3</p>
+                                    <p class="viewers"><img class="img__viewers" src="assets/imagens/icon_viewers.png" alt="#"> 4.281</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div>
+                            <a href="https://store.steampowered.com/app/1248130/Farming_Simulator_22/" target="_blank"><img class="play6" src="assets/imagens/play_icon80.png" alt="#"></a>
+                            <a href="https://store.steampowered.com/app/1248130/Farming_Simulator_22/" class="botao__em__direto botao__ao-vivo2 botao__ao-vivo7" target="_blank">Ao Vivo</a>
+
+                            <a class="items__jogos__ao__vivo" href="https://store.steampowered.com/app/1248130/Farming_Simulator_22/" target="_blank">
+                            <img class="img__jogos-ao-vivo" src="assets/imagens/download (12).jpg" alt="#">
+                                <div class="container__title__jogos-ao-vivo">
+                                    <p class="title__jogos-ao-vivo">Farming Simulator 22</p>
+                                    <p class="viewers"><img class="img__viewers" src="assets/imagens/icon_viewers.png" alt="#"> 8.972</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__jogos__populares-rv container__por__ate__20">
+                    <div class="titulo-botao__jogos-rv container__titulo__por__ate__20">
+                        <h1 class="title__destaques__primeira__section titulo__jogos__populares-rv titulo__por__ate__20">Por até R$ 20</h1>
+                        <button class="botao__sec2 botao__jogos__rv botao1__por__ate__20"><a class="botao__link__sec2" href="https://store.steampowered.com/search/?filter=ut1&category1=998&os=">Por até R$ 20</a></button>
+                        <button class="botao__sec2 botao__jogos__rv botao1__por__ate__20"><a class="botao__link__sec2" href="https://store.steampowered.com/search/?filter=ut2&category1=998&os=">Por até R$ 10</a></button>
+                    </div>
+    
+                    <div class="jogos__populares-rv jogos__ate__20">
+                        <a class="items__jogos__populares-rv items__jogos__ate__20" href="https://store.steampowered.com/app/945360/Among_Us/" target="_blank"><img src="assets/imagens/header_292x136 (5).jpg" alt="#" width="230px">
+                            <div class="container__title__jogos-rv container__title__jogos-ate-20">
+                                <h2 class="title__jogos-rv title__jogos-ate-20">R$ 10,89</h2>
+                            </div>
+                        </a>
+    
+                        <a class="items__jogos__populares-rv items__jogos__ate__20" href="https://store.steampowered.com/app/397540/Borderlands_3/" target="_blank"><img src="assets/imagens/header_292x136 (8).jpg" alt="#" width="230px">
+                            <div class="container__title__jogos-rv container__title__jogos-ate-20">
+                                <div class="box__precos">
+                                    <h2 class="title__jogos-ate-20-promocao">-90%</h2>
+                                    <div class="precos-desconto">
+                                        <h2 class="title__jogos-ate-20-promo">R$ 119,90</h2>
+                                        <h2 class="title__jogos-ate-20-promo font-color-verde">R$ 11,99</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="items__jogos__populares-rv items__jogos__ate__20" href="https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/" target="_blank"><img src="assets/imagens/header_292x136 (7).jpg" alt="#" width="230px">
+                            <div class="container__title__jogos-rv container__title__jogos-ate-20">
+                                <div class="box__precos">
+                                    <h2 class="title__jogos-ate-20-promocao">-90%</h2>
+                                    <div class="precos-desconto">
+                                        <h2 class="title__jogos-ate-20-promo">R$ 129,00</h2>
+                                        <h2 class="title__jogos-ate-20-promo font-color-verde">R$ 12,90</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+    
+                        <a class="items__jogos__populares-rv items__jogos__ate__20" href="https://store.steampowered.com/app/105600/Terraria/" target="_blank"><img src="assets/imagens/header_292x136 (6).jpg" alt="#" width="230px">
+                            <div class="container__title__jogos-rv container__title__jogos-ate-20">
+                                <h2 class="title__jogos-rv title__jogos-ate-20">R$ 19,99</h2>
+                            </div>
+                        </a>
+
+                        <img class="arrow__left arrow1__sec2 arrow1__sec3 arrow1__sec4" src="assets/imagens/arrows__1.png" alt="#">
+                        <img class="arrow__right arrow2__sec2 arrow2__sec3 arrow2__sec4" src="assets/imagens/arrows__2.png" alt="#">
+
+                        <div class="container__carrossel4">
+                            <div class="carrossel__items2 carrossel__items3"></div>
+                            <div class="carrossel__items2 carrossel__items3"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__atualizacao-oferta">
+                    <h1 class="title__destaques__primeira__section titulo__oferta">Atualizações e Ofertas</h1>
+                    <div class="container__grid__item">
+                        <a href="https://store.steampowered.com/app/1629520/A_Little_to_the_Left/" target="_blank">
+                            <div class="container__oferta-1">
+                                <div class="box__text__oferta-1">
+                                    <div class="precos precos2 container__preco-ofertas">
+                                         <div>
+                                            <button class="promo__especial__botao__pequena container__porcentagem">-24%</button>
+                                        </div>
+
+                                        <div>
+                                            <button class="promo__especial__botao2__pequena container__desconto">
+                                                <p class="promo__especial__p__botao__pequena">R$ 54,95</p>
+                                                <p class="promo__especial__p2__botao__pequena">R$ 13,18</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://store.steampowered.com/publisher/beautifulglitch/sale/monsterprom" target="_blank">
+                            <div class="container__oferta-2">
+                                <div class="box__text__oferta-2">
+                                    <p class="texto__oferta-1">Até -75%</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                        <a href="https://store.steampowered.com/sale/rpgmaker_festival_2023" target="_blank">
+                            <div class="container__oferta-4">
+                                <div class="box__text__oferta-4">
+                                    <p class="texto__oferta-4">Até -90%</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://store.steampowered.com/subscriptions/ea" target="_blank">
+                            <div class="container__oferta-3">
+                                <div class="box__text__oferta-3">
+                                    <div class="precos precos2 container__preco-ofertas preco__item__grid1">
+                                        <div>
+                                            <button class="promo__especial__botao__pequena container__porcentagem container__porcentagem1">-80%</button>
+                                        </div>
+
+                                        <div>
+                                            <button class="promo__especial__botao2__pequena container__desconto container__desconto1">
+                                                <p class="promo__especial__p__botao__pequena">R$ 19,90</p>
+                                                <p class="promo__especial__p2__botao__pequena desconto__ea">R$ 3,98</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <div class="container__oferta-5">
+                            <a href="https://store.steampowered.com/app/1449850/YuGiOh_Master_Duel/" target="_blank">
+                                <div class="container__oferta-5">
+                                    <div class="box__text__oferta-5">
+                                        <p class="texto__oferta-5">Grátis para Jogar</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="container__oferta-6">
+                            <a href="https://store.steampowered.com/app/954850/Kerbal_Space_Program_2/" target="_blank">
+                                <div class="container__oferta-6">
+                                    <div class="box__text__oferta-6">
+                                        <p class="texto__oferta-6">R$ 134,99</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="container__oferta-7">
+                            <a href="https://store.steampowered.com/app/502500/ACE_COMBAT_7_SKIES_UNKNOWN/" target="_blank">
+                                <div class="container__oferta-7">
+                                    <div class="box__text__oferta-7">
+                                        <div class="precos precos2 container__preco-ofertas preco__item__grid2">
+                                            <div>
+                                                <button class="promo__especial__botao__pequena container__porcentagem container__porcentagem1 container__porcentagem2">-84%</button>
+                                            </div>
+
+                                            <div>
+                                                <button class="promo__especial__botao2__pequena container__desconto container__desconto1 container__desconto2">
+                                                    <p class="promo__especial__p__botao__pequena">R$ 159,90</p>
+                                                    <p class="promo__especial__p2__botao__pequena">R$ 25,58</p>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="aside2">
+                <div class="aside__login aside__login2">
+                    <h1 class="titulo__principal__aside2">Em busca de recomendações?</h1>
+                    <h2 class="title__aside1 title__aside2">Inicie a sessão para ver mais recomendações personalizadas</h2>
+                    <button><a class="botao__aside botao__aside2" href="https://store.steampowered.com/login/?snr=1_4_4__more-content-login" target="_blank">Iniciar sessão</a></button>
+                    <h2 class="title__aside2 titulo__aside2">Ou <a class="link2__aside" href="https://store.steampowered.com/join/?snr=1_4_4__more-content-login" target="_blank">cadastre-se</a> no Steam gratuitamente</h2>
+                </div>
+            </aside>           
+        </section>
+    </main>
+
+    <footer>
+        <div class="container__footer">
+            <div class="linha"></div>
+            <div class="logo__footer">
+                <img class="logo1" src="assets/imagens/footerLogo_valve_new.png" alt="#">
+                <img class="logo2" src="assets/imagens/logo_steam_footer.png" alt="#" style="width: 92px; height: 26px;">
+            </div>
+            <p class="p__footer p__footer1">© 2023 Valve Corporation. Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos nos EUA e em outros países.</p>
+
+            <p class="p__footer">IVA incluso em todos os preços onde aplicável. <a class="link__burocratico" href="https://store.steampowered.com/privacy_agreement/?snr=1_44_44_" target="_blank">Política de Privacidade</a>   <span class="barra__em__pe1">|</span>  <a class="link__burocratico" href="https://store.steampowered.com/legal/?snr=1_44_44_" target="_blank">Termos Legais</a>   <span class="barra__em__pe1">|</span>   <a class="link__burocratico" href="https://store.steampowered.com/subscriber_agreement/?snr=1_44_44_" target="_blank">Acordo de Assinatura do Steam</a>   <span class="barra__em__pe1">|</span>   <a class="link__burocratico" href="https://store.steampowered.com/steam_refunds/?snr=1_44_44_" target="_blank">Reembolsos</a>   <span class="barra__em__pe1">|</span>   <a class="link__burocratico" href="https://store.steampowered.com/account/cookiepreferences/?snr=1_44_44_" target="_blank">Cookies</a>
+            </p>
+            <div class="linha linha2"></div>
+        </div>
+
+        <div class="container__footer__part2">
+            <p class="p__footer2"><a class="links__gerais" href="https://www.valvesoftware.com/pt-br/about" target="_blank">Sobre a Valve</a>   <span class="barra__em__pe2">|</span>  <a class="links__gerais" href="https://www.valvesoftware.com/pt-br/" target="_blank">Empregos</a>   <span class="barra__em__pe2">|</span>  <a class="links__gerais" href="https://partner.steamgames.com/" target="_blank">Steamworks</a>   <span class="barra__em__pe2">|</span> <a class="links__gerais" href="https://partner.steamgames.com/steamdirect" target="_blank">Distribuição no Steam </a>  <span class="barra__em__pe2">|</span>  <a class="links__gerais" href="https://help.steampowered.com/pt-br/?snr=1_44_44_" target="_blank">Suporte</a>   <span class="barra__em__pe2">|</span>  <a class="links__gerais" href="https://store.steampowered.com/digitalgiftcards/" target="_blank">Vales-presente</a>   <span class="barra__em__pe2">|</span>   <img class="sociais" src="assets/imagens/ico_facebook.gif" alt="#"> <a class="links__gerais link__social1" href="https://www.facebook.com/Steam" target="_blank">Steam</a>   <span class="barra__em__pe2">|</span>   <img class="sociais" src="assets/imagens/ico_twitter.gif" alt="#"> <a class="links__gerais link__social2" href="https://twitter.com/steam" target="_blank"> @steam</a></p>
+        </div>    
+    </footer>
+    <div class="faixa__azul"></div>
+</body>
+</html>

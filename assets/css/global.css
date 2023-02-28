@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: 'Motiva';
+    src: url(../fonts/MotivaSansTest-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Motiva-Light';
+    src: url(../fonts/MotivaSansTest-Light.otf);
+}
+
+@font-face {
+    font-family: 'Motiva-Thin';
+    src: url(../fonts/MotivaSansTest-Thin.otf);
+}
+
+@font-face {
+    font-family: 'Motiva-Medium';
+    src: url(../fonts/MotivaSansTest-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Arial-Light';
+    src: url(../fonts/arial-mt-light.ttf);
+}
+
+:root {
+    --cinza-claro1: #DCDEDF;
+    --cinza-claro2: #E5E4DC;
+    --cinza-claro3: #B8BCBF;
+    --cinza-claro4: #B8B6B4;
+    --cinza-claro5: #8B929A;
+    --cinza-claro6: #67707B;
+    --cinza-claro7: #C6D4DF;
+
+    --cinza-escuro1: #3D4450;
+    --cinza-escuro2: #23262E;
+    --cinza-escuro3: #0E141B;
+
+    --cinza-azulado1: #CCD8E3;
+    --cinza-azulado2: #A7BACC;
+    --cinza-azulado3: #7C8EA3;
+    --cinza-azulado4: #0E1C25;
+    --cinza-azulado5: #283846;
+    --cinza-azulado6: #141f2ccc;
+    --cinza-azulado7: #738895;
+
+    --azul1: #4E697D;
+    --azul2: #2A475E;
+    --azul3: #1B2838;
+    --azul4: #316282;
+    --azul5: #4C9ACC;
+    --azul-marinho-escuro1: #171a21;
+    --azul-marinho-escuro2: #000F18;
+
+    --azul-claro1: #B3DFFF;
+    --azul-claro2: #66C0F4;
+    --azul-claro3: #417a9b;
+    --azul-claro4: #1A9FFF;
+    --azul-claro5: #00BBFF;
+    
+    --verde1: #59BF40;
+    --verde2: #5ba32b;
+    --verde3: #5c7e10;
+    --verde4: #BEEE11;
+    --verde5: #4c6b22;
+    
+    --amarelo: #FFC82C;
+
+    --laranja1: #EE563B;
+    --laranja2: #E35E1C;
+    --laranja3: #D94126;
+
+    --gradiente1: linear-gradient(180deg, var(--azul2) 0%, var(--azul3) 80%);
+    --gradiente2: radial-gradient(farthest-corner at 40px 40px,#3D4450 0%, #23262E 80%);
+
+    --fonte-padrao: 'Motiva Sans';
+}
+    
+body {
+    overflow-x: hidden;
+    background: #1b2838 url(../imagens/colored_body_top.png) no-repeat center top;
+}

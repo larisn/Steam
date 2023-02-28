@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+
+header {
+    width: 100vw;
+    height: 104px;
+    background-color: var(--azul-marinho-escuro1);
+    display: flex;
+    font-family: 'Motiva';
+    overflow-x: hidden;
+}
+
+.logo__header {
+    width: 176px;
+    display: flex;
+    margin: 0 330px 0 180px;
+    position: relative;
+    left: 300px;
+}
+
+.menu1 {
+    display: flex;
+    gap: 14px;
+    text-transform: uppercase;
+    align-items: center;
+    color: var(--cinza-claro4);
+    font-family: 15px;
+}
+
+.itens__lista {
+    color: var(--cinza-claro4);
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.itens__lista:hover {
+    color: white;
+}
+
+.menu2 {
+    display: flex;
+    gap: 10px;
+    padding-top: 5.5px;
+    margin-left: 170px;
+    color: var(--cinza-claro3);
+}
+
+.itens__lista2 {
+    color: var(--cinza-claro2);
+    font-size: 11px;
+    align-self: baseline;
+}
+
+.itens__lista2:hover {
+    color: white;
+}
+
+.font-color__lista2 {
+    color: var(--cinza-claro4);
+}
+
+.img1__lista2 {
+    padding-right: 10px;
+    transform: translateY(2px);
+}
+
+.button__install {
+    background-color: var(--verde3);
+    padding: 3px 10px 2px 10px;
+   
+}
+
+.barra {
+    font-size: 11.4px;
+    transform: translateY(4.1px)
+}
+
+.img2__lista2 {
+    transform: translateY(3px);
+}
