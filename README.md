@@ -2,5 +2,7 @@
 ### Recriando a página inicial da Steam
 ![Versão Desktop](https://github.com/larisn/Steam/blob/main/assets/imagens/Screenshot_1.png)<br>
 
-Esse foi meu último projeto focado e feito unicamente com HTML e CSS antes de iniciar os estudos em JS. Iniciei com objetivo de continuar treinando posicionamento, alinhamento de itens e grid, também fiz para ''simular'' um site real pedido por um cliente, mas certamente tenho muito o que melhorar. Tentei chegar o mais próximo possível do site original estruturalmente, porém ainda não trabalhei na versão responsiva.
+Esse foi meu último projeto focado e feito unicamente com HTML e CSS antes de iniciar os estudos em JS. 
+
+Iniciei com objetivo de continuar treinando posicionamento, alinhamento de itens e grid, também fiz para simular um site real pedido por um cliente, mas certamente tenho muito o que melhorar. Tentei chegar o mais próximo possível do site original estruturalmente, porém ainda não trabalhei na versão responsiva.
 
