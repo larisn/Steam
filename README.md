@@ -1,5 +1,5 @@
 # Steam
-### Recriando a página inicial da Steam
+### Recriando a página principal da Steam
 ![Versão Desktop](https://github.com/larisn/Steam/blob/main/assets/imagens/Screenshot_1.png)<br>
 
 Esse foi meu último projeto focado e feito unicamente com HTML e CSS antes de iniciar os estudos em JS. 
