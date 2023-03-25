@@ -1,8 +1,24 @@
-# Steam
-### Recriando a página principal da Steam
-![Versão Desktop](https://github.com/larisn/Steam/blob/main/assets/imagens/Screenshot_1.png)<br>
+<h1 align="center">
+  <br> 🎮 Steam
+</h1>
 
-Esse foi meu último projeto focado e feito unicamente com HTML e CSS antes de iniciar os estudos em JS. 
+![Preview](https://github.com/larisn/Steam/blob/main/assets/imagens/Screenshot_1.png)
 
-Iniciei com objetivo de continuar treinando posicionamento, alinhamento de itens e grid, também fiz para simular um site real pedido por um cliente, mas certamente tenho muito o que melhorar. Tentei chegar o mais próximo possível do site original estruturalmente, porém ainda não trabalhei na versão responsiva.
+## 🕹 Sobre
 
+> É meu último projeto antes de iniciar os estudos em JS. 
+Iniciei com objetivo de continuar treinando posicionamento, alinhamento de itens e grid, mas certamente tenho muito o que melhorar. Tentei chegar o mais próximo possível do site original visualmente, porém ainda não trabalhei na versão responsiva.
+<br>
+
+
+## 💻 Tecnologias utilizadas:
+
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+
+* HTML
+* CSS
+
+---
+
+## 🎐 Licença
+Esse projeto está sob licença. Clique no arquivo [LICENÇA](https://github.com/larisn/larisn/blob/main/LICENSE.md) para ver mais detalhes.
