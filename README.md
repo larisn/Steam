@@ -22,3 +22,9 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 ## 🎐 Licença
 Esse projeto está sob licença. Clique no arquivo [LICENÇA](https://github.com/larisn/larisn/blob/main/LICENSE2.md) para ver mais detalhes.
+
+<br>
+
+---
+
+Feito com 💙 by larisn
