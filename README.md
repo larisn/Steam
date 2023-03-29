@@ -1,10 +1,10 @@
 <h1 align="center">
-  <br> 🎮 Steam
+  <img src="assets/imagens/Steam_icon_logo.svg" width="40px"><br> Steam
 </h1>
 
 ![Preview](https://github.com/larisn/Steam/blob/main/assets/imagens/Screenshot_1.png)
 
-## 🕹 Sobre
+## 🎮 Sobre
 
 > É meu último projeto antes de iniciar os estudos em JS. 
 Iniciei com objetivo de continuar treinando posicionamento, alinhamento de itens e grid, mas certamente tenho muito o que melhorar. Tentei chegar o mais próximo possível do site original visualmente, porém ainda não trabalhei na versão responsiva.
