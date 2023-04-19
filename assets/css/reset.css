@@ -7,3 +7,15 @@
     font-size: 16px;
     text-decoration: none;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    
+}
+::-webkit-scrollbar-track {
+    background-color: #1B2838;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #101720;
+    border-radius: 5px;
+}
